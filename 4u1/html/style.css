@@ -1,0 +1,251 @@
+body{
+    margin:0px;
+    padding: 0px;
+    background-image: url(1.jpg);
+    background-color: #ecd1877a;
+    image-resolution: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  
+}
+
+.navbar{
+  display: flex;
+    align-items: center;
+}
+
+.navbar img{
+  display:inline-flex;
+  height: 0%;
+  width: 60%;
+}
+
+.navbar ul{
+  align-items: center;
+    list-style-type: none;
+    display: middle;
+    padding: auto;
+    margin: -10px;
+    
+}
+
+.navbar ul li{
+   margin-bottom: 10px;
+   padding-top: 10px;
+}
+.navbar ul li a{
+  border-style: solid;
+  border-radius: 50px;
+  text-decoration:none;
+  color: rgb(25, 0, 255);
+  border-color: #ecd187;
+  box-sizing: content-box;
+  font-family: 'Times New Roman';
+  font-size: 125%;
+
+}
+.navbar a {
+  justify-content: space-between;
+  margin:0 10px;
+  padding: 5px 5px;
+  text-decoration: none;
+  font-size: 10px;
+  }
+
+  .search-container{
+    margin-left: 100px;
+  }
+  .navbar a:hover {
+    background-color: rgb(163, 233, 123);
+    color: rgb(0, 0, 0);
+  }
+  
+  .navbar a.active {
+    color: rgb(163, 233, 123);
+  }
+  
+
+
+  .top-container{
+    background-color: rgb(16, 106, 241);
+    text-justify: space-between;
+    display: flex;
+    justify-content: space-between;
+    text-shadow: 4px 4px 6px #000000;
+
+}
+
+.top-container ul{
+    margin:center;
+    display:flex;
+    text-align: center;
+    align-items: middle;
+    list-style-type: none;
+}
+.top-container ul a{
+
+  text-decoration:none;
+  margin:0px 80px;
+  color: rgb(255, 253, 253);
+  font-family: 'Times New Roman';
+  font-size: 150%;
+
+}
+.top-container a {
+  color: black;
+  margin: 10px 10px;
+  padding:5px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+  .top-container a:hover {
+    background-color: rgb(255, 249, 249);
+    color: rgb(185, 62, 62);
+  }
+  
+  .top-container a.active {
+    color: rgb(231, 45, 45);
+  }
+  
+  .sub-menu{
+    display: none;
+    text-shadow: 2px 2px 4px #ecd187;
+  }
+
+  .top-container ul li:hover .sub-menu{
+    display: block;
+    position: fixed;
+    background-color: rgba(36, 219, 189, 0.829);
+    margin-top:5px;
+    margin-left: -15px;
+  }
+
+  .top-container ul li:hover .sub-menu ul{
+    display:block;
+    margin:0 15px;
+    padding-right: 0px 10px;
+  }
+  .top-container ul li:hover .sub-menu ul li{
+    width:5px 150px;
+    padding: 5px;
+    border-bottom: 1px dotted #fff;
+    background: transparent;
+    border-radius: 10px;
+    text-align:left;
+  }
+
+  .top-container ul li .sub-menu ul li a {
+     color: black;
+  }
+
+  .top-container ul li .sub-menu ul li a:hover {
+    background-color: rgb(255, 249, 249);
+    color: rgb(185, 62, 62);
+  }
+  
+  .top-container ul li .sub-menu ul li a.active {
+    color: rgb(231, 45, 45);
+  }
+  
+  .booking{
+    background-color: rgba(245, 222, 179, 0.63); 
+  } 
+  
+  .booking h1{
+    text-align: center;
+    height: 40px;
+    color: rgb(255, 72, 0);
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  }
+
+  .booking h2{
+    text-align: left;
+    margin: 0px 40px;
+    font-size: 20px;
+    text-decoration:dotted;
+    text-align: bold;
+    height: 40px;
+    font-style: 'Times New Roman';
+    color: rgb(17, 0, 255);
+    text-shadow: -1px 0 rgb(0, 183, 255), 0 1px rgb(0, 195, 255), 1px 0 rgb(0, 183, 255), 0 -1px rgb(0, 204, 255);   }
+  .booking h3{
+    text-align: center;
+    margin: 0px 10px;
+    font-size: 20px;
+    text-decoration:dotted;
+    text-align: bold;
+    height: 40px;
+    font-style: 'Times New Roman';
+    color: rgb(17, 0, 255);
+    text-shadow: -1px 0 rgb(0, 183, 255), 0 1px rgb(0, 195, 255), 1px 0 rgb(0, 183, 255), 0 -1px rgb(0, 204, 255);}
+
+  .booking p{
+    text-align:center;
+    margin: 10px;
+    color: rgb(226, 168, 145);
+  }
+  .checkin{ 
+    text-align: center;
+    padding: 10px;
+    margin: 0px 10px;
+    font-size: 20px;
+    text-decoration:dotted;
+    text-align: bold;
+    height: 40px;
+    font-style: 'Times New Roman';
+    color: rgb(17, 0, 255);
+    text-shadow: -1px 0 rgb(0, 183, 255), 0 1px rgb(0, 195, 255), 1px 0 rgb(0, 183, 255), 0 -1px rgb(0, 204, 255);   
+  }
+
+  .Adult{
+    text-align: center;
+    padding: 40px;
+    margin: 0px 10px;
+    font-size: 20px;
+    text-decoration:dotted;
+    text-align: bold;
+    height: 40px;
+    font-style:'Times New Roman';
+    color: rgb(17, 0, 255);
+    text-shadow: -1px 0 rgb(0, 183, 255), 0 1px rgb(0, 195, 255), 1px 0 rgb(0, 183, 255), 0 -1px rgb(0, 204, 255);
+  }
+
+  .add{
+    text-align: center;
+    padding: 40px;
+    margin: 0px 10px;
+    font-size: 20px;
+    text-decoration:dotted;
+    text-align: bold;
+    height: 40px;
+    font-style:'Times New Roman';
+    color: rgb(17, 0, 255);
+    text-shadow: -1px 0 rgb(0, 183, 255), 0 1px rgb(0, 195, 255), 1px 0 rgb(0, 183, 255), 0 -1px rgb(0, 204, 255);
+  }
+
+  .add1{
+    text-align: right;
+    margin: 0px 10px;
+    font-size: 20px;
+    text-decoration:dotted;
+    text-align: bold;
+    height: 40px;
+    font-style:'Times New Roman';
+    color: rgb(17, 0, 255);
+    text-shadow: -1px 0 rgb(0, 183, 255), 0 1px rgb(0, 195, 255), 1px 0 rgb(0, 183, 255), 0 -1px rgb(0, 204, 255);
+  }
+
+  .change{
+    text-align: center;
+    padding: 40px;
+    margin: 0px 10px;
+    font-size: 20px;
+    text-decoration:dotted;
+    text-align: bold;
+    height: 40px;
+    font-style:'Times New Roman';
+    color: rgb(17, 0, 255);
+    text-shadow: -1px 0 rgb(0, 183, 255), 0 1px rgb(0, 195, 255), 1px 0 rgb(0, 183, 255), 0 -1px rgb(0, 204, 255);
+  }
